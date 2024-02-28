@@ -18,13 +18,14 @@ O programa deve utilizar apenas as funções print(), input() e int(),
 além dos operadores lógicos and, or ou not e de operadores aritméticos ou
 de comparação necessários.
 """
-# (-b±√(b²-4ac))/(2a) .
+
 
 def exerc1 ():
     a = float(input("Informe o parâmetro a da equação: "))
     b = float(input("Informe o parâmetro b da equação: "))
     c = float(input("Informe o parâmetro c da equação: "))
 
+    # (-b±√(b²-4ac))/(2a)
     raiz1 = (-b+(((b**2) - (4*a*c))**(1/2))) / (2*a)
     raiz2 = (-b-(((b**2) - (4*a*c))**(1/2))) / (2*a)
 
